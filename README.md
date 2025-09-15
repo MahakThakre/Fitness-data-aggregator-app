@@ -4,9 +4,37 @@ This Streamlit app aggregates and analyzes fitness tracker data from CSV and JSO
 
 ---
 
+## Sample Data Included
+
+- Predefined **sample data** files are named:  
+  - `sample_data.csv`  
+  - `sample_data.json`  
+
+These enable the app to run **without requiring user input**, providing default fitness data for immediate trial and analysis.
+
+---
+
+## Trial Data for Users
+
+- For more extensive testing, a **100-row trial dataset** is provided as:  
+  - `fitness_data.csv`  
+  - `fitness_data.json`  
+
+These files contain richer real-world style data suitable for robust testing.
+
+---
+
+## App Input Behavior
+
+- By default, a **checkbox labeled "Use Sample Data"** is checked, so the app loads and analyzes the predefined `sample_data.csv` and `sample_data.json`.
+- To use your own CSV or JSON files, **uncheck** this checkbox and upload your data files.
+- The app will then perform cleaning, aggregation, and visualization on your uploaded files.
+
+---
+
 ## Features
 
-- Upload fitness data in CSV and JSON formats
+- Upload fitness data in CSV and/or JSON formats or use predefined sample data
 - Data cleaning: date normalization, duplicate removal, missing value handling
 - User statistics: total steps, total calories, weekly average steps
 - Daily top user by steps
@@ -15,21 +43,11 @@ This Streamlit app aggregates and analyzes fitness tracker data from CSV and JSO
 
 ---
 
-## App Working
-
-1. **Upload Data**: Upload one or both of CSV and JSON fitness data files (with required structure).
-2. **Automatic Cleaning**: The app normalizes date formats, removes duplicate (user+date) entries, and fills in missing values such as calories per-user average.
-3. **Statistics Generation**: Computes total steps and calories for each user and their weekly average steps. Also finds the daily top user by step count.
-4. **Interactive Reporting**: View statistics and daily leaders on screen. Explore trends and patterns through interactive Plotly charts.
-5. **Download Output**: Download the cleaned and aggregated results as a compliant JSON file instantly.
-
----
-
 ## File Formats
 
 ### CSV
 
-Required columns: `date`, `user_id`, `steps`, `calories`, `sleep_minutes`
+Required columns: `date`, `user_id`, `steps`, `calories`, `sleep_minutes`  
 Various date formats are supported (e.g., `2025-09-01`, `01/09/2025`, `08-09-2025`).
 
 ### JSON
@@ -41,14 +59,14 @@ Array of objects, each with keys: `date`, `user_id`, `steps`, `calories`, `sleep
 ## Usage
 
 1. **Install dependencies**:
-   ```
-   pip install -r requirements.txt
-   ```
+    ```
+    pip install -r requirements.txt
+    ```
 2. **Run the app**:
-   ```
-   streamlit run fitness_tracker_app.py
-   ```
-3. **Upload your data files** (or use the pre-provided sample datasets)
+    ```
+    streamlit run fitness_tracker_app.py
+    ```
+3. **By default, sample data is loaded**; to analyze your own data, uncheck "Use Sample Data" checkbox and upload files.
 
 ---
 
@@ -65,9 +83,9 @@ See [requirements.txt](requirements.txt)
 
 ---
 
-## Sample Data
+## Sample Data Files
 
-- [fitness_data.csv](fitness_data.csv)
-- [fitness_data.json](fitness_data.json)
+- Predefined small sample: `sample_data.csv`, `sample_data.json`  
+- Trial 100-row dataset: `fitness_data.csv`, `fitness_data.json`
 
 ---
