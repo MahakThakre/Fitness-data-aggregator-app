@@ -1,0 +1,72 @@
+[
+  {
+    "date": "2025-09-01",
+    "user_id": "Alice",
+    "steps": 6083,
+    "calories": 1906,
+    "sleep_minutes": 382
+  },
+  {
+    "date": "01/09/2025",
+    "user_id": "Bob",
+    "steps": 10550,
+    "calories": 2498,
+    "sleep_minutes": 538
+  },
+  {
+    "date": "2025-09-01",
+    "user_id": "Charlie",
+    "steps": 3292,
+    "calories": null,
+    "sleep_minutes": 384
+  },
+  {
+    "date": "2025-09-02",
+    "user_id": "Alice",
+    "steps": 3833,
+    "calories": 2636,
+    "sleep_minutes": 471
+  },
+  {
+    "date": "2025-09-02",
+    "user_id": "Bob",
+    "steps": 6208,
+    "calories": null,
+    "sleep_minutes": 585
+  },
+  {
+    "date": "03/09/2025",
+    "user_id": "Charlie",
+    "steps": 9500,
+    "calories": 2800,
+    "sleep_minutes": 420
+  },
+  {
+    "date": "2025-09-04",
+    "user_id": "Alice",
+    "steps": 8200,
+    "calories": 2300,
+    "sleep_minutes": 390
+  },
+  {
+    "date": "04-09-2025",
+    "user_id": "Bob",
+    "steps": 7800,
+    "calories": 2100,
+    "sleep_minutes": 410
+  },
+  {
+    "date": "2025-09-01",
+    "user_id": "Alice",
+    "steps": 6083,
+    "calories": 1906,
+    "sleep_minutes": 382
+  },
+  {
+    "date": "05/09/2025",
+    "user_id": "Charlie",
+    "steps": 6700,
+    "calories": 1950,
+    "sleep_minutes": 380
+  }
+]

@@ -1,0 +1,106 @@
+{
+  "user_stats": [
+    {
+      "user_id": "Bob",
+      "total_steps": 52033,
+      "total_calories": 18464,
+      "weekly_avg_steps": {
+        "2025-09-week-2": 5818,
+        "2025-09-week-3": 4200,
+        "2025-09-week-1": 8186
+      }
+    },
+    {
+      "user_id": "Charlie",
+      "total_steps": 46080,
+      "total_calories": 14587,
+      "weekly_avg_steps": {
+        "2025-09-week-2": 5896,
+        "2025-09-week-3": 8900,
+        "2025-09-week-1": 6497
+      }
+    },
+    {
+      "user_id": "Alice",
+      "total_steps": 62155,
+      "total_calories": 19579,
+      "weekly_avg_steps": {
+        "2025-09-week-2": 8179,
+        "2025-09-week-3": 9750,
+        "2025-09-week-1": 6038
+      }
+    }
+  ],
+  "daily_top_user": [
+    {
+      "date": "2025-09-01",
+      "user_id": "Bob",
+      "steps": 10550
+    },
+    {
+      "date": "2025-09-02",
+      "user_id": "Bob",
+      "steps": 6208
+    },
+    {
+      "date": "2025-09-03",
+      "user_id": "Charlie",
+      "steps": 9500
+    },
+    {
+      "date": "2025-09-04",
+      "user_id": "Alice",
+      "steps": 8200
+    },
+    {
+      "date": "2025-09-05",
+      "user_id": "Charlie",
+      "steps": 6700
+    },
+    {
+      "date": "2025-09-08",
+      "user_id": "Charlie",
+      "steps": 4888
+    },
+    {
+      "date": "2025-09-09",
+      "user_id": "Bob",
+      "steps": 8214
+    },
+    {
+      "date": "2025-09-11",
+      "user_id": "Alice",
+      "steps": 11692
+    },
+    {
+      "date": "2025-09-12",
+      "user_id": "Charlie",
+      "steps": 7200
+    },
+    {
+      "date": "2025-09-13",
+      "user_id": "Alice",
+      "steps": 9800
+    },
+    {
+      "date": "2025-09-14",
+      "user_id": "Charlie",
+      "steps": 5600
+    },
+    {
+      "date": "2025-09-15",
+      "user_id": "Alice",
+      "steps": 12000
+    },
+    {
+      "date": "2025-09-16",
+      "user_id": "Charlie",
+      "steps": 8900
+    },
+    {
+      "date": "2025-09-17",
+      "user_id": "Alice",
+      "steps": 7500
+    }
+  ]
+}
